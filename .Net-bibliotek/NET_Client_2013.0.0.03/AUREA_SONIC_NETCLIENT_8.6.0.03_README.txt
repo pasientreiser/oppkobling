@@ -1,0 +1,18 @@
+        Sonic .NET Client 2013 Release 8.6.0.03 (Build 115) Patch Notes
+
+
+Patch Installation Instructions:
+
+    * You must have Sonic .NET Client 2013 Release 8.6.0 installed before applying this patch.
+    * Backup the existing Sonic .NET Client installation tree.
+    * Unpack the download archive over the existing installation tree.
+
+
+Issues addressed in Sonic .NET Client 2013 Patch Release 8.6.0.03:
+
+Issue #   Description
+--------  -----------
+SCSC-388  .NET Vulnerable to POODLE due to hard-coded SSLv3 usage
+SCSC-387  ESocketIdMismatch when creating session/consumer on recovered FT connection	  
+SCSC-366  Support for Undelivered Destination in .NET Client
+SCSC-379  Update Assembly Version to be in sync with java versioning
