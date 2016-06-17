@@ -61,13 +61,12 @@ Meldingsinnholdet parset som tekst og skrevet til output:
 public virtual void onMessage(Sonic.Jms.Message aMessage) {
     try {
         Sonic.Jms.TextMessage textMessage = (Sonic.Jms.TextMessage) aMessage;
-         
         String msgText = textMessage.getText();
         Console.Out.WriteLine(msgText);
         aMessage.acknowledge();
     }
     catch (Exception e) {
-        Console.Error.WriteLine("Failed to parse received message - " + e.Message);
+        Console.Error.WriteLine(e);
     }
 }
 ```
